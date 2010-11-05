@@ -43,3 +43,7 @@ $ ./redis_zset_ram.pl
 10000 zsets of 2000 members, 20000000 total in 1939253688 bytes ram, 96/member
 </pre>
 
+An earlier attempt at doing this for a Craigslist-specific
+implementation resulted in some data that I shared in the #redis
+freenode IRC channel: https://spreadsheets.google.com/ccc?key=0ArKuF62RTXBLdGkwbkh2WUY0RE9GcTl5QnB2Nk5sZkE&hl=en
+
