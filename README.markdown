@@ -47,3 +47,20 @@ An earlier attempt at doing this for a Craigslist-specific
 implementation resulted in some data that I shared in the #redis
 freenode IRC channel: [Google Docs spreadsheet] (https://spreadsheets.google.com/ccc?key=0ArKuF62RTXBLdGkwbkh2WUY0RE9GcTl5QnB2Nk5sZkE&hl=en)
 
+redis_hash_ram.pl
+-----------------
+
+This tool does the same thing as redis_zset_ram but using hashes.
+
+Here's an example run from it:
+
+<pre>
+10000 hashes of 1 pairs, 10000 total in 11438000 bytes ram, 1143/pair
+10000 hashes of 2 pairs, 20000 total in 11526128 bytes ram, 576/pair
+10000 hashes of 10 pairs, 100000 total in 11926128 bytes ram, 119/pair
+10000 hashes of 50 pairs, 500000 total in 14726128 bytes ram, 29/pair
+10000 hashes of 100 pairs, 1000000 total in 59696072 bytes ram, 59/pair
+10000 hashes of 200 pairs, 2000000 total in 106839016 bytes ram, 53/pair
+10000 hashes of 500 pairs, 5000000 total in 213986608 bytes ram, 42/pair
+10000 hashes of 1000 pairs, 10000000 total in 414240048 bytes ram, 41/pair
+</pre>
