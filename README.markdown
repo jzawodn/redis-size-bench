@@ -45,5 +45,5 @@ $ ./redis_zset_ram.pl
 
 An earlier attempt at doing this for a Craigslist-specific
 implementation resulted in some data that I shared in the #redis
-freenode IRC channel: https://spreadsheets.google.com/ccc?key=0ArKuF62RTXBLdGkwbkh2WUY0RE9GcTl5QnB2Nk5sZkE&hl=en
+freenode IRC channel: [Google Docs spreadsheet] (https://spreadsheets.google.com/ccc?key=0ArKuF62RTXBLdGkwbkh2WUY0RE9GcTl5QnB2Nk5sZkE&hl=en)
 
